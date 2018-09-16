@@ -1,0 +1,70 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url(../images/newsradio_pic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  
+}
+
+#container {
+  margin: 0 20%;
+  background-color: rgba(223, 140, 46, 0.267);
+  padding: 0 20px;
+}
+
+#sub-wrapper {
+  position: relative;
+  top: 15%;
+}
+
+/* button that is clicked */
+#start {
+  font-family: 'News Cycle', sans-serif;
+  margin-top: 10%;
+  background: #5f91df;
+  border: 2px solid blue;
+}
+
+button {
+  width: 70%;
+  height: 40px;
+  margin: 0 15%;
+  background-color: #5f91df;
+  margin-bottom: 15px;
+  font-family: 'News Cycle', sans-serif;
+  font-size: 150%;
+}
+
+#newsImage {
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 5em;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0px 2px 11px #000000;
+}
+
+h2 {
+  font-family: 'News Cycle', sans-serif;
+  margin-bottom: 25px;
+  font-size: 35px;
+  text-shadow: 0px 2px 11px #000000;
+}
+
+h3 {
+  font-family: 'News Cycle', sans-serif;
+  margin-bottom: 10px;
+  font-size: 25px;
+  text-shadow: 0px 2px 11px #000000;
+}
