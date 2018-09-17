@@ -113,9 +113,9 @@ var game = {
       panel.append("<h3>The Correct Answer is: " + questions[this.currentQuestion].correctAnswer);
       panel.append("<img src='" + questions[this.currentQuestion].image + "' />");
       if (game.currentQuestion === questions.length - 1) {
-        setTimeout(game.results, 6 * 1000);
+        setTimeout(game.results, 7 * 1000);
       } else {
-        setTimeout(game.nextQuestion, 6 * 1000);
+        setTimeout(game.nextQuestion, 7 * 1000);
       }
     },
 
@@ -141,25 +141,25 @@ var game = {
     answeredIncorrectly: function() {
       clearInterval(timer);
       game.incorrect++;
-      panel.html("<h2>That is incorrect.</h2>");
+      panel.html("<h2>Wrong.</h2>");
       panel.append("<h3>The Correct Answer is: " + questions[game.currentQuestion].correctAnswer + "</h3>");
       panel.append("<img src='" + questions[game.currentQuestion].image + "' />");
       if (game.currentQuestion === questions.length - 1) {
-        setTimeout(game.results, 6 * 1000);
+        setTimeout(game.results, 7 * 1000);
       } else {
-        setTimeout(game.nextQuestion, 6 * 1000);
+        setTimeout(game.nextQuestion, 7 * 1000);
       }
     },
 
     answeredCorrectly: function() {
       clearInterval(timer);
       game.correct++;
-      panel.html("<h2>Right on!</h2>");
+      panel.html("<h2>Right!</h2>");
       panel.append("<img src='" + questions[game.currentQuestion].image + "' />");
       if (game.currentQuestion === questions.length - 1) {
-        setTimeout(game.results, 6 * 1000);
+        setTimeout(game.results, 7 * 1000);
       } else {
-        setTimeout(game.nextQuestion, 6 * 1000);
+        setTimeout(game.nextQuestion, 7 * 1000);
       }
     },
 
