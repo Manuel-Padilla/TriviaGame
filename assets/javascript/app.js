@@ -152,7 +152,6 @@ var game = {
     } else {
       setTimeout(game.nextQuestion, 7 * 1000);
     }
-    audioElement.play();
   },
 
   answeredCorrectly: function () {
